@@ -20,6 +20,7 @@
 * **Tools**
     * [image2css](https://github.com/jaysalvat/image2css) 使用 PHP GD 库把图像转换成 CSS box-shadow 属性。例子可参考 [Mona Lisa with pure CSS](http://codepen.io/jaysalvat/pen/HaqBf)。
     * [img2css](https://github.com/javierbyte/img2css) 功能和上面一个相似，不过这个库借助的是 canvas。
+    * [Clippy](http://bennettfeely.com/clippy/)一个在线生成工具，主要用来实现css背景剪切功能（可查看CSS clip属性详解）。
 * **Demos**
     * [30个CSS碎片拼图，30种濒临灭绝动物](http://www.webhek.com/misc-res/species-in-pieces/#)
     * [Airplane (Pure CSS)](http://codepen.io/dogagenc/pen/xbRKZx)
@@ -28,3 +29,6 @@
     * [Pure CSS Tic-tac-toe 游戏](https://codepen.io/ziga-miklic/pen/Fagmh)
     * [Pure CSS 扫雷游戏](https://github.com/imsun/CSS-Minesweeper)
     * [星球大战里面的 Darth Vader](https://tsitu.github.io/darth.html)
+    * [Simpsons In CSS](http://pattle.github.io/simpsons-in-css/)
+    * [Silon](https://github.com/SLaks/Silon)
+    * [Rotate Clock](http://codepen.io/DawidKrajewski/pen/dPpMXN)
