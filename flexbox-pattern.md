@@ -19,23 +19,22 @@
 
 ### 从 "display: flex" 属性开始
 
-Flexbox CSS 的基础属性就是 `display: flex`，只需要给一个元素添加这个属性，你就用上了弹性布局了。就这么简单！
+Flexbox CSS 的基础属性就是 `display: flex`，只需要给元素添加这个属性，你就用上了弹性布局了。就这么简单！
 
-你也许会问，这个属性起了什么作用？默认情况下，它指定了元素中的项目沿主轴（main axis）排列，主轴默认是水平方向的。
+你也许会问，这个属性起了什么作用？默认情况下，它指定了容器中的子元素沿主轴（main axis）排列，主轴默认是水平方向的。
 
 接下来，我们会用两个实例来介绍这个属性是如何用在我们的 UI 组件的。
-
 
 <a name="stepper-input"></a>
 ### 步进计数器 [Demo](http://www.flexboxpatterns.com/stepper-input)
 
 ![image](http://www.flexboxpatterns.com/images/thumbs/stepperInput.png)
 
-我们要介绍的第一个例子是步进输入框组件。当绑定 JavaScript 代码之后，点击 + / - 号，输入框中的值将会对应变化。
+我们要介绍的第一个例子是步进输入框组件。当绑定 JavaScript 代码之后，点击 + / - 号，输入框中的值将会对应增加 / 减少。
 
 _译注：此处计数器的实现也可以使用 [CSS Counters](http://caniuse.com/#search=CSS%20Counters) 来代替 JavaScript，具体例子可以参考 [使用 CSS 的 counter-increment 做的游戏](http://www.w3cplus.com/css3/pure-css-games-with-counter-increment.html)。_
 
-按照以往的正常思路，你可能会选择用 `display: inline-block` 或者 `float: left` 来实现这种内联样式。然而，这样做的话，你还需要给这些元素添加特定的选择器。来使用弹性盒子吧，只需要往容器添加 `display: flex` 属性，就可以实现相同的效果了。
+按照以往的思路，你可能会选择用 `display: inline-block` 或者 `float: left` 来实现这种内联样式。然而，这样做的话，你还需要给这些元素统统添加特定的选择器。让我们使用弹性盒子吧，只需要往容器添加 `display: flex` 属性，就可以实现相同的效果了。
 
 当你添加这个属性时，相当于对元素说：“嘿伙计，你就负责按照 flexbox 的规则排列你的子元素就好了！”。在最基本的形式下，元素沿主轴（main axis）排列，默认就是 x 轴，从左到右。
 
@@ -242,7 +241,7 @@ _译注：tab 的切换效果可以通过纯 CSS 实现，可以参考 [CSS tric
 
 ![image](http://www.flexboxpatterns.com/images/thumbs/formFooter.png)
 
-你也许需要在表单底部放一些进度菊花或者验证反馈。和上面的例子类似，使用弹性盒子可以将这些内容和表单提交按钮分隔开来。
+你也许需要在表单底部放个进度圈或者验证反馈。和上面的例子类似，使用弹性盒子可以将这些内容和表单提交按钮分隔开来。
 
 CSS 代码
 ```CSS
@@ -331,7 +330,7 @@ HTML 代码
 
 ![image](http://www.flexboxpatterns.com/images/thumbs/sideBar.png)
 
-这也是一个相当经典的组件。你甚至不需要 flexbox 来构造它，div 就足够了…… 如果产品经理告诉你，要把其中一个按钮单独拿到下面，你可以用 `position: absolute` 来处理，当然也可以用 flexbox。
+这也是一个相当经典的组件。你甚至不需要 flexbox 来构造它，div 就足够了…… 不过，如果设计师让你把其中一个按钮单独拿到下面，你可以用 `position: absolute` 来处理，当然也可以用 flexbox。
 
 除了 `display: flex` 和 `justify-content: space-between`，我们还需要另一个属性：
 
@@ -401,9 +400,9 @@ HTML 代码
 <a name="centered-propmt"></a>
 ### 居中提示 [Demo](http://www.flexboxpatterns.com/centered-prompt)
 
-![image](http://www.flexboxpatterns.com/images/thumbs/centeredPropmt.png)
+![image](http://www.flexboxpatterns.com/images/thumbs/centeredPrompt.png)
 
-不使用 flexbox 的居中布局通常需要一些 Hack 技巧，比如使用绝对布局然后通过 2D transform 平移。使用 flexbox，你只需要在容器元素设置 4 个属性：
+不使用 flexbox 的居中布局通常需要一些 hack 技巧，比如使用绝对布局然后通过 2D transform 平移。使用 flexbox，你只需要在容器元素设置 4 个属性：
 
 * `display: flex`
 * `flex-direction: column`
