@@ -17,10 +17,13 @@
     * [iHover](https://github.com/gudh/ihover) 一个令人印象深刻的图片悬停效果集合，完全基于 CSS3 实现。
     * [devices.css](https://github.com/marvelapp/devices.css) 纯 CSS 模拟移动设备
     * [CSS Modals](https://github.com/drublic/css-modal) 纯 CSS 实现模态框
+    * [Animate.css](http://daneden.github.io/animate.css/) CSS3 动效库
 * **Tools**
     * [image2css](https://github.com/jaysalvat/image2css) 使用 PHP GD 库把图像转换成 CSS box-shadow 属性。例子可参考 [Mona Lisa with pure CSS](http://codepen.io/jaysalvat/pen/HaqBf)。
     * [img2css](https://github.com/javierbyte/img2css) 功能和上面一个相似，不过这个库借助的是 canvas。
-    * [Clippy](http://bennettfeely.com/clippy/)一个在线生成工具，主要用来实现css背景剪切功能（可查看CSS clip属性详解）。
+    * [Clippy](http://bennettfeely.com/clippy/) 一个在线生成工具，主要用来实现 CSS 背景剪切功能（可查看CSS clip属性详解）。
+    * [Bounce.js](http://bouncejs.com/) 生成 CSS3 动效的小工具，它是用JavaScript编写的，提供了一个 Web 编辑界面
+    * [CSS Animate](http://cssanimate.com/) 如果你觉得上面的工具还无法做出你想要的动效，那么可以看看CSS Animate这个工具。它能让你设置更多的动效参数，比如你可以同时设置动效起始和终止状态的坐标，大小，以及透明度，这样你就能够做出更加复杂的动效来。
 * **Demos**
     * [30个CSS碎片拼图，30种濒临灭绝动物](http://www.webhek.com/misc-res/species-in-pieces/#)
     * [Airplane (Pure CSS)](http://codepen.io/dogagenc/pen/xbRKZx)
